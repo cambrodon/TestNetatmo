@@ -126,12 +126,12 @@ public class CustomAdapter extends BaseAdapter {
                 mGustStrength.setVisibility(View.GONE);
                 mGustAngle.setVisibility(View.GONE);
 
-                mTypeView.setText("INDOOR");
+                mTypeView.setText("Intérieur");
                 mCO2View.setText("CO2 (ppm): " + measures.getCO2());
-                mPressureView.setText("Pressure (mbar): " + measures.getPressure());
-                mNoiseView.setText("Noise (db): " + measures.getNoise());
-                mHumidityView.setText("Humidity (%): " + measures.getHumidity());
-                mTemperatureView.setText("Temp. (°C): " + measures.getTemperature());
+                mPressureView.setText("Pression (mbar): " + measures.getPressure());
+                mNoiseView.setText("Bruit (db): " + measures.getNoise());
+                mHumidityView.setText("Humidité (%): " + measures.getHumidity());
+                mTemperatureView.setText("Température (°C): " + measures.getTemperature());
                 break;
             case Module.TYPE_OUTDOOR:
                 mCO2View.setVisibility(View.GONE);
@@ -150,9 +150,9 @@ public class CustomAdapter extends BaseAdapter {
                 mGustStrength.setVisibility(View.GONE);
                 mGustAngle.setVisibility(View.GONE);
 
-                mTypeView.setText("OUTDOOR");
-                mHumidityView.setText("Humidity (%): " + measures.getHumidity());
-                mTemperatureView.setText("Temp. (°C): " + measures.getTemperature());
+                mTypeView.setText("Extérieur");
+                mHumidityView.setText("Humidité (%): " + measures.getHumidity());
+                mTemperatureView.setText("Température (°C): " + measures.getTemperature());
                 break;
             case Module.TYPE_RAIN_GAUGE:
                 mCO2View.setVisibility(View.GONE);
