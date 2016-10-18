@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="client_id">57e50f07e6da23987e8ccef2</string>
+    <string name="client_secret">lJpFTy2txDULhMixRi0TDHnByrU</string>
+    <string name="app_scope">read_station</string>
+</resources>
